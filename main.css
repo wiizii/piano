@@ -1,0 +1,18 @@
+.container {
+	display: flex;
+	margin: 5%;
+	justify-content: center;
+}
+
+.note {
+	display: flex;
+	border: 1px solid black;
+	width: 50px;
+	height: 120px;
+	align-items: center;
+	justify-content: center;
+}
+
+.clicked {
+	background-color: #a1a1a1;
+}
