@@ -10,3 +10,7 @@ https://developer.mozilla.org/ko/docs/Web/API/AudioContext
 
 # picture
 <img width="535" alt="스크린샷 2021-07-17 오후 6 00 53" src="https://user-images.githubusercontent.com/56618964/126032171-2bafc02d-d020-4df4-aece-028f15ce32ea.png">
+
+# 기여자
+데구리><
+https://github.com/degurii
