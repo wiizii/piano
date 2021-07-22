@@ -1,4 +1,4 @@
-.container {
+.piano {
 	display: flex;
 	margin: 5%;
 	justify-content: center;
@@ -7,6 +7,7 @@
 .note {
 	display: flex;
 	border: 1px solid black;
+	flex-direction: column;
 	width: 50px;
 	height: 120px;
 	align-items: center;
@@ -15,4 +16,12 @@
 
 .clicked {
 	background-color: #a1a1a1;
+}
+
+.volume-controller {
+	display: flex;
+	font-weight: bold;
+}
+.volume-controller__input {
+	margin-left: 10px;
 }

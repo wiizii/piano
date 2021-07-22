@@ -6,15 +6,43 @@
 </html>
 
 <body>
-	<div class="container">
-		<div id="C3" class="note">도</br>(a)</div>
-		<div id="D3" class="note">레</br>(s)</div>
-		<div id="E3" class="note">미</br>(d)</div>
-		<div id="F3" class="note">파</br>(f)</div>
-		<div id="G3" class="note">솔</br>(j)</div>
-		<div id="A3" class="note">라</br>(k)</div>
-		<div id="B3" class="note">시</br>(l)</div>
-		<div id="C4" class="note">도</br>(;)</div>
+	<div class="piano">
+		<div id="C3" class="note">
+			<span>도</span>
+			<span>(a)</span>
+		</div>
+		<div id="D3" class="note">
+			<span>레</span>
+			<span>(s)</span>
+		</div>
+		<div id="E3" class="note">
+			<span>미</span>
+			<span>(d)</span>
+		</div>
+		<div id="F3" class="note">
+			<span>파</span>
+			<span>(f)</span>
+		</div>
+		<div id="G3" class="note">
+			<span>솔</span>
+			<span>(j)</span>
+		</div>
+		<div id="A3" class="note">
+			<span>라</span>
+			<span>(k)</span>
+		</div>
+		<div id="B3" class="note">
+			<span>시</span>
+			<span>(l)</span>
+		</div>
+		<div id="C4" class="note">
+			<span>도</span>
+			<span>(;)</span>
+		</div>
 	</div>
+	<label class="volume-controller">volume
+		<input type="range" class="volume-controller__input" min="0" max="1" step="0.1">
+	</label>
+
 	<script src="app.js"></script>
 </body>
